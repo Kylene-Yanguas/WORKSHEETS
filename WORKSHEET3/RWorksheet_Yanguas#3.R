@@ -68,12 +68,10 @@ new <- matr * 2
 matr[2,]
 
 #d. What will be the R code if you want to display the column 3 and column 4 in row 1 and row 2? What is its output?
-matr[1,3]
-matr[2,4]
+matr[c(1,2), c(3,4)]
 
 #e. What is the R code is you want to display only the columns in 2 and 3, row 3? What is its output?
-matr[3,2]
-matr[3,3]
+matr[c(3), c(2,3)]
 
 #f. What is the R code is you want to display only the columns 4? What is its output?
 matr[,4]
